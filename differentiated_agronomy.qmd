@@ -1,0 +1,27 @@
+# Structural differentiated agronomy toolkit
+
+## Targeting research, adoption and impacts of new innovations-- hybrid characteristics-induced innovation model toolkit
+
+***Why or why not a differentiated farming system (or agronomy) framework?***
+
+A differentiated farming system approach focuses on identifying characteristics of the farming systems which farmers would find attractive. The goal is then to estimate the willingness of the farmers to pay for these farming system characteristics.
+
+The advantage of doing this is that:
+
+·        It allows one to predict the adoption of new agronomic innovations
+
+·        It helps to assess the welfare impacts of many varieties of a technology unlike the traditional approach which treats them as separate inputs or goods.
+
+***Stylized use case: Where to target sowing date advisories?***
+
+We use the differentiated farming systems approach by analyzing the segmentation of sowing dates and drivers associated with farmers choice of which planting dates to sow their wheat.
+
+***Input data requirements***
+
+***Toolkit workflow***
+
+![](differentiated_agronomy_workflow.png)
+
+**Selected results**
+
+![](OLS_estimates_diff_Agron.png)

@@ -1,0 +1,11 @@
+# Preface {.unnumbered}
+
+What is all this? Standard Operating Procedures (SOP) for a research process which should be driven by a quest to discover the unknown seems far-fetched. It is far-fetched indeed as it should be. Let alone for spatial exante which depends very much on what the context demands. Our purpose for these SOPs is to standardize the spatial exante process so as to shorten the amount of time researchers spend on coding the common building blocks of spatial exante workflows[\[1\]](#_ftn1).
+
+The choice of which methods to showcase in the SOP reflects our taste and level of knowledge. It also reflects our goal which is to provide a prioritization assessment framework for potential investments.
+
+We focus on three indicators for prioritization: yield gains, profit gains and robustness to risk.
+
+[\[1\]](#_ftnref1) We develop the SOPs following advice from Hollman et al (2020) \[https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008095\].
+
+**Acknowledgements:** We thank CSISA and EiA for funding this work. This draft manual was written by Maxwell Mkondiwa with support from Jordan Chamberlin. It has not been reviewed thoroughly. All remaining errors are ours.
