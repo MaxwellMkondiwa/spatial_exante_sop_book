@@ -16,7 +16,7 @@ How does one choose which toolkits to use? We present next a guide map to choosi
 
 [\[1\]](#_ftnref1) Within CSISA and EiA, the CAPTAIN tool (now called PAiCE) is a clear example of this toolkit.
 
-## Guidelines to comprehensive spatial quantitative exante toolkits 
+## Guidelines to comprehensive spatial quantitative exante toolkits
 
 This paper has provides a list of spatial quantitative exante toolkits that are used to prioritize potential investments. These toolkits mostly use existing survey data or baseline data that most projects ideally collect prior to implementation.
 
@@ -28,7 +28,7 @@ If crop simulation and long-term experimental datasets are available, one can us
 
 The spatial profitability assessment toolkit and the spatial optimization toolkit will provide an individual assessment of the benefits of. However, one may be interested to understand if this makes sense socially as well given the demand and supply behavioral patterns (i.e., elasticities). The equilibrium displacement modelling framework also called economic surplus approach is the traditional way of assessing producer and consumer surplus for the new agronomic technology. This approach will utilize supply/demand elasticities, the spatially explicit yield gains and cost reduction estimates and the assumed adoption trends to evaluate the returns on investments at a disaggregated level.
 
-What if the new technology is just a variant of an old technology. For example, a new mix of herbicides or a new variety. In most cases, these are not widely adopted to warrant a spatial profitability assessment using observational data. In addition, the performance in agronomic trials will likely be misleading because farmers have not yet learned how to use the technology appropriately. How do we predict whether this new technology is will be adopted and that it\'s worth investing in. For this, the researcher needs to consider the structural differentiated agronomy toolkit which uses characteristics of the technology and locational characteristics (including farmer demographics) to predict whether the new technology embodying particular traits is worth investing.
+What if the new technology is just a variant of an old technology. For example, a new mix of herbicides or a new variety. In most cases, these are not widely adopted to warrant a spatial profitability assessment using observational data. In addition, the performance in agronomic trials will likely be misleading because farmers have not yet learned how to use the technology appropriately. How do we predict whether this new technology is will be adopted and that it's worth investing in. For this, the researcher needs to consider the structural differentiated agronomy toolkit which uses characteristics of the technology and locational characteristics (including farmer demographics) to predict whether the new technology embodying particular traits is worth investing.
 
 As it can be seen from the guidemap, these toolkits can be used in tandem because they give different insights into the likely benefits of investing in a particular technology. In addition, these approaches are not exhaustive. Each of the workflows we have presented have several variants and complementary methods that researchers can explore.
 

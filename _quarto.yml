@@ -14,8 +14,11 @@ book:
     - differentiated_agronomy.qmd
     - summary.qmd
     - references.qmd
+  downloads: [pdf, epub]
 
 bibliography: references.bib
+
+
 
 format:
   html:
