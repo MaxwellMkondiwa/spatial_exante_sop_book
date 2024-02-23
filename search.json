@@ -144,7 +144,17 @@
     "href": "spatial_economic_surplus.html",
     "title": "5  Spatial economic surplus and return on investments (ROI) toolkit",
     "section": "",
-    "text": "5.1 Discounted cash flow (DCF) economic surplus framework [Incomplete]\nPurpose: Economic surplus framework is the most used approach in agricultural economics to evaluate the agricultural research benefits.\nIn recent years, scholars have also suggested the use of real options approach which then helps in valuing the time to wait and dynamic complexities appropriately.\nWhy?\n·        Relies on economic theory especially demand and supply as well as welfare economics\nWhy not?\n·        Given data requirements (e.g., on elasticities), the analyses are done at aggregate level (e.g., country level).\nStylized use case: Would sowing date advisories pay?\nWe estimate the returns on investments of early sowing advisories using the economic surplus approach.\nInput data requirements: Surplus analysis approach requires data on area, yield , and output data. It also requires data on percent of area under the new technology, the supply and demand elasticities, yield gain due to the technology , price data and cost change data due to the technology.\nToolkit workflow",
+    "text": "5.1 Discounted cash flow (DCF) economic surplus framework [Incomplete]\nPurpose: Economic surplus framework is the most used approach in agricultural economics to evaluate the agricultural research benefits.\nIn recent years, scholars have also suggested the use of real options approach which then helps in valuing the time to wait and dynamic complexities appropriately.\nWhy?\nWhy not?\nStylized use case: Would sowing date advisories pay?\nWe estimate the returns on investments of early sowing advisories using the economic surplus approach.\nInput data requirements: Surplus analysis approach requires data on area, yield , and output data. It also requires data on percent of area under the new technology, the supply and demand elasticities, yield gain due to the technology , price data and cost change data due to the technology.\nToolkit workflow",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Spatial economic surplus and return on investments (ROI) toolkit</span>"
+    ]
+  },
+  {
+    "objectID": "spatial_economic_surplus.html#discounted-cash-flow-dcf-economic-surplus-framework-incomplete",
+    "href": "spatial_economic_surplus.html#discounted-cash-flow-dcf-economic-surplus-framework-incomplete",
+    "title": "5  Spatial economic surplus and return on investments (ROI) toolkit",
+    "section": "",
+    "text": "Relies on economic theory especially demand and supply as well as welfare economics\n\n\n\nGiven data requirements (e.g., on elasticities), the analyses are done at aggregate level (e.g., country level).",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Spatial economic surplus and return on investments (ROI) toolkit</span>"
     ]
