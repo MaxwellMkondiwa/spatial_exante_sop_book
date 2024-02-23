@@ -1,0 +1,48 @@
+# Exploratory toolkit: Back of the envelope, literature review, and stakeholder prioritization frameworks
+
+There are cases in which spatial exante can be done using back of the environment calculations, literature review or stakeholder prioritization workshops. These cases include when there is ample evidence on ROI, or when the time or resources required would not allow collection of the necessary data for the comprehensive analytics. We discuss in this section the merits and demerits of the approach, an example from India, the data requirements, stylized outputs from such and link to replication materials.
+
+***Advantages***
+
+-   It is the simplest approach and has less data requirements.
+
+-   It is useful when there is lack of data for a formal quantitative evaluation.
+
+-   For some agricultural innovations, formal quantitative methods are difficult or even impossible to implement.
+
+-   When there is mixed evidence on the probability of success, a stakeholder engagement can help in understanding the likely values. In addition, it helps in building an institutionalized "economic way of thinking" (Alston et al 1995).
+
+***Disadvantages***
+
+-   The approach is less precise and can be biased by the nature of evidence available and by the set of the stakeholders.
+
+***Stylized use case: Where to target sowing date advisories?***
+
+Using literature review, it is clear that early sowing of wheat has yield advantages. In focus group discussions, farmers also expressed the same.
+
+***Input data requirements***
+
+-   Literature database with estimates for each location
+
+-   Stakeholder workshop with a scoring matrix
+
+***Toolkit workflow***
+
+Following Alston et al (1995) and Lee et al (2014), the scoting toolkit involves the steps shown in the figure.
+
+![Figure 2: Stylized workflow for literature review, scoring and back of the envelope calculations](/Back_of_envelope.png)
+
+
+Replication materials: https://github.com/EiA2030-ex-ante/Ex-ante-Summary-Tool 
+
+
+\# References {.unnumbered}
+
+::: {#refs}
+Alston, J.M., Norton, G.W., and Pardey, P. 1995. “Science under scarcity: Principles and practice for agricultural research evaluation and priority setting”. CAB International. See Chapter 7 (pp. 463-498). 
+
+Binswanger, H.P. 1986. “Evaluating Research System Performance and Targeting Research in Land-abundant Areas of Sub-Saharan Africa.” World Development 14(4): 469-475. Doi: https://doi.org/10.1016/0305-750X(86)90063-X. 
+
+Lee, D.R., Edmeades, S., Nys, E., McDonald, A., Janssen, W. 2014. “Developing local adaptation strategies for climate change in agriculture: A priority-setting approach with application to Latin America”. Global Environmental Change 29: 78-91. Doi: https://doi.org/10.1016/j.gloenvcha.2014.08.002. 
+
+:::

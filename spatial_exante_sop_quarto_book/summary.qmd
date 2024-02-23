@@ -1,0 +1,3 @@
+# Conclusion
+
+This paper has discussed toolkits for conducting spatial exante analyses using a case study of sowing date advisories. These toolkits are selected to showcase reproducible workflows that can be applied for other agronomic practices and in other areas of interest. In on-going research, we are also using mathematical optimization approaches, agent-based modelling approaches, knowledge guided machine learning and spatial multi-criteria approaches for targeting and prioritizing agricultural innovations. We believe automating research around these methods will allow agronomists and other stakeholders to quickly make scientific discoveries and respond to ever changing agronomic environments due to climate variability and change.

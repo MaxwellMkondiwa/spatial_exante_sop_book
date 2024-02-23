@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Workflows for Spatial Exante Economic Analytics: Selected SOPs - 3&nbsp; Spatial optimization toolkit: Computational risk-return modeling</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./spatial_economic_surplus.html" rel="next">
+<link href="./spatial_profit_assessment.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Spatial optimization toolkit: Computational risk-return modeling</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Workflows for Spatial Exante Economic Analytics: Selected SOPs</a> 
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Preface</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./spatial_profit_assessment.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Spatial exante profit profitability and risk assessment toolkit: Econometric and spatial machine learning</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./spatial_optimization_toolkit.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Spatial optimization toolkit: Computational risk-return modeling</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./spatial_economic_surplus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Spatial economic surplus and return on investments (ROI) toolkit</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./differentiated_agronomy.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Structural differentiated agronomy toolkit: Targeting research, adoption and impacts of new innovations– hybrid characteristics-induced innovation model toolkit</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Conclusion</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#mean-variance-ev-and-mean-conditional-value-at-riskk-cvar-modern-portfolio-theory-optimization" id="toc-mean-variance-ev-and-mean-conditional-value-at-riskk-cvar-modern-portfolio-theory-optimization" class="nav-link active" data-scroll-target="#mean-variance-ev-and-mean-conditional-value-at-riskk-cvar-modern-portfolio-theory-optimization"> <span class="header-section-number">3.1</span> Mean-Variance (EV) and Mean-Conditional Value at Riskk (CVaR) modern portfolio theory optimization</a></li>
+  <li><a href="#willingness-to-pay-bounds-for-second-order-stochastic-dominance-approach" id="toc-willingness-to-pay-bounds-for-second-order-stochastic-dominance-approach" class="nav-link" data-scroll-target="#willingness-to-pay-bounds-for-second-order-stochastic-dominance-approach"> <span class="header-section-number">3.2</span> Willingness to pay bounds for second order stochastic dominance approach</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Spatial optimization toolkit: Computational risk-return modeling</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<section id="mean-variance-ev-and-mean-conditional-value-at-riskk-cvar-modern-portfolio-theory-optimization" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="mean-variance-ev-and-mean-conditional-value-at-riskk-cvar-modern-portfolio-theory-optimization"><span class="header-section-number">3.1</span> Mean-Variance (EV) and Mean-Conditional Value at Riskk (CVaR) modern portfolio theory optimization</h2>
+<p><strong>Purpose:</strong> Mean-variance analysis seeks to maximize returns at the minimum risk (or variance). The approach was introduced by Harry Markowitz to identify efficient diversification options for investments.</p>
+<p><strong><em>Advantages</em></strong></p>
+<ul>
+<li>Allows selection of multiple alternatives beyond combinations observed in the data</li>
+</ul>
+<p><strong><em>Disadvantages</em></strong></p>
+<ul>
+<li>Focuses only two moments (mean and variance) yet other moments of the distribution may also matter.</li>
+</ul>
+<p><strong><em>Stylized use case: Optimal sowing date and variety combinations</em></strong></p>
+<p>We use CSISA-KVK trial data to demonstrate the approach. The agronomic trials cover a 5-year period in 8 districts in the Indian state of Bihar.</p>
+<p><strong><em>Input data requirements:</em></strong> This is an outcome-based risk assessment requiring yield or profits data for multiple years for the same site.</p>
+<p><strong><em>Toolkit workflow</em></strong></p>
+<p>Mean-Variance optimization requires only the outcome variable for multiple realizations and portfolio choices. We then use quadratic optimization to identify the frontier and optimal weights indicating the amount of land or resources that should be devoted to particular choices. &nbsp;</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="EV_CVaR_workflow.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure 12: Mean-variance or mean-conditional value at risk (CVaR) workflow</figcaption><p></p>
+</figure>
+</div>
+<p><strong><em>Stylized outputs</em></strong></p>
+<p>Using a state level E-V optimization model of wheat yields, we find that HD-2967 sown before 10<sup>th</sup> November gives the highest returns and a risk neutral farmer would find it most beneficial.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="sowing_date_varietal_yield_frontier.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure 13: Planting date-varietal yield frontier for Bihar, 2016-2021.</figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="optimal_weights.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure 14: Optimal weights for planting date-variety yield frontier, 2016-2021.</figcaption><p></p>
+</figure>
+</div>
+<p><strong><em>Replication materials: <a href="https://eia2030-ex-ante.github.io/Risk_modern_portfolio_theory_EV_model/" class="uri">https://eia2030-ex-ante.github.io/Risk_modern_portfolio_theory_EV_model/</a></em></strong></p>
+</section>
+<section id="willingness-to-pay-bounds-for-second-order-stochastic-dominance-approach" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="willingness-to-pay-bounds-for-second-order-stochastic-dominance-approach"><span class="header-section-number">3.2</span> Willingness to pay bounds for second order stochastic dominance approach</h2>
+<p><strong>Purpose:</strong> The commonly used risk measures focus on central moments (e.g., variance, conditional value at risk, skewness) of the distribution. Yield distributions overtime and space are however more complicated such that one may need to consider the whole distribution when evaluating which agronomic practice will likely work where and when. The use of stochastic dominance especially second order stochastic dominance allows the relationship between the cumulative distribution function of the outcome and the expected utility maximization behaviour under risk aversion. A computational approach developed by Hurley et al (2018) allows one to compute willingness to pay lower and upper bounds for a new technology to second order stochastically dominate an old practice such that any risk averse farmer will choose the new technology.</p>
+<p><strong><em>Advantages</em></strong></p>
+<ul>
+<li>Unlike mean-variance optimization, this optimization strategy considers distributional comparisons</li>
+</ul>
+<p><strong><em>Disadvantages</em></strong></p>
+<ul>
+<li><p>Computationally expensive especially when implementing across a large area of interest.</p></li>
+<li><p>The comparisons are pairwise thereby requiring many combinations to come up with the best alternative for each pixel.</p></li>
+<li><p>Difficult to apply with survey or agronomic datasets are it requires long timeseries. However, it is possible to implement the approach with monte-carlo simulated survey or agronomic trial datasets.</p></li>
+</ul>
+<p><strong><em>Stylized use case: Where to target sowing date advisories?</em></strong></p>
+<p>We use gridded crop growth simulation model results to identify scenarios that would be agronomically and economically beneficial even for a risk averse farmer.</p>
+<p><strong><em>Input data requirements</em></strong></p>
+<p>For the spatial exante (economic) component of the model, one only needs gridded crop simulation results for each of the scenarios.</p>
+<p><strong><em>Toolkit workflow</em></strong></p>
+<p>Figure 15 shows the workflow for implementation the computational second order stochastic dominance analysis.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="sosd_workflow.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure 15: Risk optimization using second order stochastic dominance</figcaption><p></p>
+</figure>
+</div>
+<p><strong><em>Stylized outputs</em></strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./system_profit_sosd_map.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure 16: Willingness to pay based on partial profits for planting date scenario in comparison to fixed date with long duration rice variety strategy</figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./Optimal_rice_planting_strategy.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure 17: Robust and optimal rice planting date strategy</figcaption><p></p>
+</figure>
+</div>
+<p><strong><em>Replication materials: <a href="https://github.com/AntonUrfels/econ-sims-bihar" class="uri">https://github.com/AntonUrfels/econ-sims-bihar</a></em></strong></p>
+<p><strong><em>Key references:</em></strong> For more methodological details of the approach, readers are referred to Hurley et al (2018).</p>
+<p>Hurley, T., Koo, J., and Tesfaye, K. 2018. "Weather risk: how does it change the yield benefits of nitrogen fertilizer and improved maize varieties in sub-Saharan Africa?" <em>Agricultural Economics</em> 49: 711-723. Doi: 10.1111/agec.12454.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    toggleBodyColorMode(window.document.querySelector("link#quarto-bootstrap"));
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./spatial_profit_assessment.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Spatial exante profit profitability and risk assessment toolkit: Econometric and spatial machine learning</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./spatial_economic_surplus.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Spatial economic surplus and return on investments (ROI) toolkit</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

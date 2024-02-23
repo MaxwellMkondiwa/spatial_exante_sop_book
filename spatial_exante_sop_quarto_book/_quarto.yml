@@ -1,0 +1,27 @@
+project:
+  type: book
+
+book:
+  title: "Workflows for Spatial Exante Economic Analytics: Selected SOPs"
+  author: "Maxwell Mkondiwa (with Jordan Chamberlin and CSISA-EiA Team"
+  date: "23/2/2024"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - spatial_profit_assessment.qmd
+    - spatial_optimization_toolkit.qmd
+    - spatial_economic_surplus.qmd
+    - differentiated_agronomy.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
