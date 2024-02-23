@@ -8,9 +8,9 @@ A differentiated farming system approach focuses on identifying characteristics 
 
 The advantage of doing this is that:
 
-·        It allows one to predict the adoption of new agronomic innovations
+-   It allows one to predict the adoption of new agronomic innovations
 
-·        It helps to assess the welfare impacts of many varieties of a technology unlike the traditional approach which treats them as separate inputs or goods.
+-   It helps to assess the welfare impacts of many varieties of a technology unlike the traditional approach which treats them as separate inputs or goods.
 
 ***Stylized use case: Where to target sowing date advisories?***
 

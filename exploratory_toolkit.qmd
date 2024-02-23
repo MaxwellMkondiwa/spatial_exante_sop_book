@@ -32,17 +32,12 @@ Following Alston et al (1995) and Lee et al (2014), the scoting toolkit involves
 
 ![Figure 2: Stylized workflow for literature review, scoring and back of the envelope calculations](/Back_of_envelope.png)
 
+Replication materials: <https://github.com/EiA2030-ex-ante/Ex-ante-Summary-Tool>
 
-Replication materials: https://github.com/EiA2030-ex-ante/Ex-ante-Summary-Tool 
+**Key references**
 
+Alston, J.M., Norton, G.W., and Pardey, P. 1995. "Science under scarcity: Principles and practice for agricultural research evaluation and priority setting". CAB International. See Chapter 7 (pp. 463-498).
 
-\# References {.unnumbered}
+Binswanger, H.P. 1986. "Evaluating Research System Performance and Targeting Research in Land-abundant Areas of Sub-Saharan Africa." World Development 14(4): 469-475. Doi: https://doi.org/10.1016/0305-750X(86)90063-X.
 
-::: {#refs}
-Alston, J.M., Norton, G.W., and Pardey, P. 1995. “Science under scarcity: Principles and practice for agricultural research evaluation and priority setting”. CAB International. See Chapter 7 (pp. 463-498). 
-
-Binswanger, H.P. 1986. “Evaluating Research System Performance and Targeting Research in Land-abundant Areas of Sub-Saharan Africa.” World Development 14(4): 469-475. Doi: https://doi.org/10.1016/0305-750X(86)90063-X. 
-
-Lee, D.R., Edmeades, S., Nys, E., McDonald, A., Janssen, W. 2014. “Developing local adaptation strategies for climate change in agriculture: A priority-setting approach with application to Latin America”. Global Environmental Change 29: 78-91. Doi: https://doi.org/10.1016/j.gloenvcha.2014.08.002. 
-
-:::
+Lee, D.R., Edmeades, S., Nys, E., McDonald, A., Janssen, W. 2014. "Developing local adaptation strategies for climate change in agriculture: A priority-setting approach with application to Latin America". Global Environmental Change 29: 78-91. Doi: https://doi.org/10.1016/j.gloenvcha.2014.08.002.

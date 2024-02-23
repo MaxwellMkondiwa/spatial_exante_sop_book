@@ -8,11 +8,11 @@ In recent years, scholars have also suggested the use of real options approach w
 
 ***Why?***
 
-·        Relies on economic theory especially demand and supply as well as welfare economics
+-   Relies on economic theory especially demand and supply as well as welfare economics
 
 ***Why not?***
 
-·        Given data requirements (e.g., on elasticities), the analyses are done at aggregate level (e.g., country level).
+-   Given data requirements (e.g., on elasticities), the analyses are done at aggregate level (e.g., country level).
 
 ***Stylized use case: Would sowing date advisories pay?***
 
