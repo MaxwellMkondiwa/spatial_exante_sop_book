@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.4.555">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Maxwell Mkondiwa (with Jordan Chamberlin and CSISA-EiA Team)">
-<meta name="dcterms.date" content="2024-02-28">
+<meta name="author" content="Maxwell Mkondiwa (with Jordan Chamberlin and Oyinbo Oyakhilomen)">
+<meta name="dcterms.date" content="2024-11-21">
 
-<title>Workflows for Spatial Exante Economic Analytics: Selected SOPs</title>
+<title>Workflows for Spatial Ex Ante Economic Analysis of Agronomy Interventions</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -101,26 +101,26 @@ ul.task-list li input[type="checkbox"] {
       <img src="./CSISA_EIA_logo3.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Workflows for Spatial Exante Economic Analytics: Selected SOPs</a> 
+      <a href="./">Workflows for Spatial Ex Ante Economic Analysis of Agronomy Interventions</a> 
         <div class="sidebar-tools-main tools-wide">
     <a href="https://github.com/EiA2030-ex-ante/spatial_exante_sop_book" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
     <div class="dropdown">
       <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download"><i class="bi bi-download"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
           <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./Workflows-for-Spatial-Exante-Economic-Analytics--Selected-SOPs.pdf">
+            <a class="dropdown-item sidebar-tools-main-item" href="./Workflows-for-Spatial-Ex-Ante-Economic-Analysis-of-Agronomy-Interventions.pdf">
               <i class="bi bi-bi-file-pdf pe-1"></i>
             Download PDF
             </a>
           </li>
           <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./Workflows-for-Spatial-Exante-Economic-Analytics--Selected-SOPs.docx">
+            <a class="dropdown-item sidebar-tools-main-item" href="./Workflows-for-Spatial-Ex-Ante-Economic-Analysis-of-Agronomy-Interventions.docx">
               <i class="bi bi-bi-file-word pe-1"></i>
             Download Docx
             </a>
           </li>
           <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./Workflows-for-Spatial-Exante-Economic-Analytics--Selected-SOPs.epub">
+            <a class="dropdown-item sidebar-tools-main-item" href="./Workflows-for-Spatial-Ex-Ante-Economic-Analysis-of-Agronomy-Interventions.epub">
               <i class="bi bi-bi-journal pe-1"></i>
             Download ePub
             </a>
@@ -215,7 +215,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Workflows for Spatial Exante Economic Analytics: Selected SOPs</h1>
+<h1 class="title">Workflows for Spatial Ex Ante Economic Analysis of Agronomy Interventions</h1>
 </div>
 
 
@@ -225,14 +225,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Maxwell Mkondiwa (with Jordan Chamberlin and CSISA-EiA Team) </p>
+             <p>Maxwell Mkondiwa (with Jordan Chamberlin and Oyinbo Oyakhilomen) </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">February 28, 2024</p>
+      <p class="date">November 21, 2024</p>
     </div>
   </div>
   
@@ -246,7 +246,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <section id="preface" class="level1 unnumbered">
-<h1 class="unnumbered">Preface</h1><p><img src="Optimal_rice_planting_strategy.png" title="Workflows for Spatial Exante Economic Analytics: Selected SOPs" class="quarto-cover-image img-fluid"></p>
+<h1 class="unnumbered">Preface</h1><p><img src="Optimal_rice_planting_strategy.png" title="Workflows for Spatial Ex Ante Economic Analysis of Agronomy Interventions" class="quarto-cover-image img-fluid"></p>
 <p>What is all this? Standard Operating Procedures (SOP) for a research process which should be driven by a quest to discover the unknown seems far-fetched. It is far-fetched indeed as it should be. Let alone for spatial exante which depends very much on what the context demands. Our purpose for these SOPs is to standardize the spatial exante process so as to shorten the amount of time researchers spend on coding the common building blocks of spatial exante workflows<a href="#_ftn1">[1]</a>.</p>
 <p>The choice of which methods to showcase in the SOP reflects our taste and level of knowledge. It also reflects our goal which is to provide a prioritization assessment framework for potential investments.</p>
 <p>We focus on three indicators for prioritization: yield gains, profit gains and robustness to risk.</p>
@@ -336,6 +336,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/MaxwellMkondiwa\.github\.io\/spatial_exante_sop_book\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -370,7 +388,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');

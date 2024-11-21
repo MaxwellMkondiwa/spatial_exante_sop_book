@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.4.555">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Workflows for Spatial Exante Economic Analytics: Selected SOPs - 2&nbsp; Exploratory toolkit: Back of the envelope, literature review, and stakeholder prioritization frameworks</title>
+<title>Workflows for Spatial Ex Ante Economic Analysis of Agronomy Interventions - 2&nbsp; Exploratory toolkit: Back of the envelope, literature review, and stakeholder prioritization frameworks</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -100,26 +100,26 @@ ul.task-list li input[type="checkbox"] {
       <img src="./CSISA_EIA_logo3.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Workflows for Spatial Exante Economic Analytics: Selected SOPs</a> 
+      <a href="./">Workflows for Spatial Ex Ante Economic Analysis of Agronomy Interventions</a> 
         <div class="sidebar-tools-main tools-wide">
     <a href="https://github.com/EiA2030-ex-ante/spatial_exante_sop_book" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
     <div class="dropdown">
       <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download"><i class="bi bi-download"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
           <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./Workflows-for-Spatial-Exante-Economic-Analytics--Selected-SOPs.pdf">
+            <a class="dropdown-item sidebar-tools-main-item" href="./Workflows-for-Spatial-Ex-Ante-Economic-Analysis-of-Agronomy-Interventions.pdf">
               <i class="bi bi-bi-file-pdf pe-1"></i>
             Download PDF
             </a>
           </li>
           <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./Workflows-for-Spatial-Exante-Economic-Analytics--Selected-SOPs.docx">
+            <a class="dropdown-item sidebar-tools-main-item" href="./Workflows-for-Spatial-Ex-Ante-Economic-Analysis-of-Agronomy-Interventions.docx">
               <i class="bi bi-bi-file-word pe-1"></i>
             Download Docx
             </a>
           </li>
           <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./Workflows-for-Spatial-Exante-Economic-Analytics--Selected-SOPs.epub">
+            <a class="dropdown-item sidebar-tools-main-item" href="./Workflows-for-Spatial-Ex-Ante-Economic-Analysis-of-Agronomy-Interventions.epub">
               <i class="bi bi-bi-journal pe-1"></i>
             Download ePub
             </a>
@@ -245,17 +245,19 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Stakeholder workshop with a scoring matrix</p></li>
 </ul>
 <p><strong><em>Toolkit workflow</em></strong></p>
-<p>Following Alston et al (1995) and Lee et al (2014), the scoting toolkit involves the steps shown in the figure.</p>
+<p>Following Alston et al (1995) and Lee et al (2014), the scoring toolkit involves the steps shown in the figure.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src=".\Back_of_envelope.png" class="img-fluid figure-img"></p>
 <figcaption>Figure 2: Stylized workflow for literature review, scoring and back of the envelope calculations</figcaption>
 </figure>
 </div>
+<p>As can be seen from figure 2, the approach involves triangulating across three different approaches: scoring (Alston et al 1995, Lee et al 2014), literature reviews, and theory-driven back of envelope calculations (Binswanger 1986, Goldman 1993).</p>
 <p>Replication materials: <a href="https://github.com/EiA2030-ex-ante/Ex-ante-Summary-Tool" class="uri">https://github.com/EiA2030-ex-ante/Ex-ante-Summary-Tool</a></p>
 <p><strong>Key references</strong></p>
 <p>Alston, J.M., Norton, G.W., and Pardey, P. 1995. “Science under scarcity: Principles and practice for agricultural research evaluation and priority setting”. CAB International. See Chapter 7 (pp.&nbsp;463-498).</p>
 <p>Binswanger, H.P. 1986. “Evaluating Research System Performance and Targeting Research in Land-abundant Areas of Sub-Saharan Africa.” World Development 14(4): 469-475. Doi: https://doi.org/10.1016/0305-750X(86)90063-X.</p>
+<p>Goldman, A. 1993. “Agricultural Innovation in Three Areas of Kenya: Neo-Boserupian Theories and Regional Characterization.” <em>Economic Geography</em> 69(1): 44-71. Url: <a href="http://www.jstor.org/stable/143889" class="uri">http://www.jstor.org/stable/143889</a>.</p>
 <p>Lee, D.R., Edmeades, S., Nys, E., McDonald, A., Janssen, W. 2014. “Developing local adaptation strategies for climate change in agriculture: A priority-setting approach with application to Latin America”. Global Environmental Change 29: 78-91. Doi: https://doi.org/10.1016/j.gloenvcha.2014.08.002.</p>
 
 
@@ -340,6 +342,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/MaxwellMkondiwa\.github\.io\/spatial_exante_sop_book\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -374,7 +394,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
